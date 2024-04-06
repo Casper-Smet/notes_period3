@@ -1,6 +1,7 @@
 1. Histograms of oriented gradient(?)
 2. Optical flow
 3. Gaussian mixture models (GMM)
+4. Maximum suppresion
 
 ## 2018
 Extrinsic / Intrinsic matrix
@@ -32,3 +33,10 @@ Normalize histograms to sum=1
 
 ## Optical flow
 For each pixel one frame n, where does it go in frame 2. Orientation/direct and magnitude per pixel 
+
+## Background stuff
+EROSION AND DILATION
+
+## Gaussian Mixture Models
+Normal/Gaussian distributions per pixel, plus one mixture (multiple distributions in one)  
+Everything outside of a std threshold is foreground
