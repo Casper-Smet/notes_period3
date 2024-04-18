@@ -1,9 +1,9 @@
 - What each thing in the table for regression means
-- Probability calcuation from regression
-- maximum margin linear decision boundary
+- Probability calcuation from regression -> done
+- maximum margin linear decision boundary -> I get it
 - Multiple R-Squared -> SSR / SST = sum(yn -t)^2 / sum(tn - t)^2
-- number of parameters calculation
-- Why cross entropy rather than SE
+- number of parameters calculation -> done
+- Why cross entropy rather than SE -> done
 - In a Transformer architecture, a self-attention head is responsible for capturing dependencies between all words in the input sequence, regardless of their positions. It does this by assigning different attention scores to different words. The attention score determines how much focus to put on each word when encoding the current word. This mechanism allows the model to consider the entire context of the input sequence when generating the output.
 
 Having multiple self-attention heads in a single Transformer block is beneficial for a couple of reasons:
